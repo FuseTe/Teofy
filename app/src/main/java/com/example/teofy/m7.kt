@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class MainActivity : AppCompatActivity() {
+class m7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_m7)
 
         val home = findViewById<ImageView>(R.id.home)
 
@@ -26,6 +26,30 @@ class MainActivity : AppCompatActivity() {
 
         library.setOnClickListener{
             startActivity(Intent(this,m7::class.java))
+        }
+
+        val symphonic = findViewById<ImageView>(R.id.symphonic)
+
+        symphonic.setOnClickListener{
+            startActivity(Intent(this,m1::class.java))
+        }
+
+        val metal = findViewById<ImageView>(R.id.metal)
+
+        metal.setOnClickListener{
+            startActivity(Intent(this,m1::class.java))
+        }
+
+        val electro = findViewById<ImageView>(R.id.electro)
+
+        electro.setOnClickListener{
+            startActivity(Intent(this,m2::class.java))
+        }
+
+        val lofi = findViewById<ImageView>(R.id.lofihiphop)
+
+        lofi.setOnClickListener{
+            startActivity(Intent(this,m3::class.java))
         }
     }
 }

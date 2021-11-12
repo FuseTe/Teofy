@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EADCAD">
+    android:background="#EADCAD"
+    tools:context=".m7">
 
     <LinearLayout
         android:id="@+id/linearLayout10"
@@ -19,10 +20,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Search"
-            android:textColor="@color/black"
-            android:textSize="25dp"
-            android:textStyle="bold"></TextView>
+            style="@style/search"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -41,18 +40,17 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="6dp"
-            android:src="@drawable/_9">
-
-        </ImageView>
+            android:src="@drawable/_9"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
-            android:text="Artists, songs, or podcasts">
+            android:text="@string/artists_songs_or_podcasts">
 
         </TextView>
 
@@ -71,9 +69,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your top genres"
-            android:textColor="@color/black"
-            android:textSize="20dp"
+            style="@style/your_Top"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="124dp"
             tools:layout_editor_absoluteY="142dp">
@@ -96,9 +92,11 @@
 
 
         <ImageView
+            android:id="@+id/symphonic"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/_22"></ImageView>
+            android:src="@drawable/_22"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 
@@ -115,10 +113,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Symphonic"
-            android:textColor="#AF5400"
-            android:textSize="15dp"
-            android:textStyle="bold"></TextView>
+            style="@style/symphonic"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -136,9 +132,11 @@
 
 
         <ImageView
+            android:id="@+id/lofihiphop"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/_22"></ImageView>
+            android:src="@drawable/_22"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 
@@ -155,10 +153,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lofi Hip-Hop"
-            android:textColor="#AF5400"
-            android:textSize="15dp"
-            android:textStyle="bold"></TextView>
+            style="@style/lofi_hip_hop"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -176,9 +172,11 @@
 
 
         <ImageView
+            android:id="@+id/electro"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/_22"></ImageView>
+            android:src="@drawable/_22"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 
@@ -195,10 +193,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Electro"
-            android:textColor="#AF5400"
-            android:textSize="15dp"
-            android:textStyle="bold"></TextView>
+            style="@style/electro"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -216,9 +212,11 @@
 
 
         <ImageView
+            android:id="@+id/metal"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/_22"></ImageView>
+            android:src="@drawable/_22"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 
@@ -234,10 +232,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Metal"
-            android:textColor="#AF5400"
-            android:textSize="15dp"
-            android:textStyle="bold"></TextView>
+            style="@style/metal"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -258,9 +254,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="236dp"
-        android:text="Browse all"
-        android:textColor="@color/black"
-        android:textSize="20dp"
+        style="@style/browse"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -282,7 +276,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="#000"></View>
+            android:background="#000" />
 
     </LinearLayout>
 
@@ -300,19 +294,22 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginHorizontal="40dp"
-            android:src="@drawable/_7"></ImageView>
+            android:src="@drawable/_7"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginHorizontal="40dp"
-            android:src="@drawable/_9"></ImageView>
+            android:src="@drawable/_9"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginHorizontal="40dp"
-            android:src="@drawable/_6"></ImageView>
+            android:src="@drawable/_6"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 

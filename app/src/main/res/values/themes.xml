@@ -89,10 +89,89 @@
         <item name="android:textStyle">normal</item>
     </style>
 
-    <style name="ralsei_podcast" parent="TextAppearance.AppCompat">
+
+    <style name="goodmorning" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/good_morning</item>
+        <item name="android:textSize">@dimen/s27</item>
+    </style>
+
+    <style name="recently_played" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/recently_played</item>
+        <item name="android:textSize">@dimen/s27</item>
+    </style>
+
+    <style name="your_library" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/your_library</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="liked_songs" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/liked_songs</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="podcast" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/black</item>
         <item name="android:text">@string/ralsei_podcast</item>
         <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="deltarune" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/deltarune</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="search" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/search</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="playlist" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/playlist_170_songs</item>
+        <item name="android:textSize">@dimen/sp14</item>
+    </style>
+
+    <style name="your_Top" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/your_top_genres</item>
+        <item name="android:textSize">@dimen/sp20</item>
+    </style>
+
+    <style name="browse" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/browse_all</item>
+        <item name="android:textSize">@dimen/sp20</item>
+    </style>
+
+    <style name="symphonic" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:text">@string/symphonic</item>
+        <item name="android:textSize">@dimen/s15</item>
+    </style>
+
+    <style name="metal" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:text">@string/metal</item>
+        <item name="android:textSize">@dimen/s15</item>
+    </style>
+
+    <style name="electro" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:text">@string/electro</item>
+        <item name="android:textSize">@dimen/s15</item>
+    </style>
+
+    <style name="lofi_hip_hop" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:text">@string/lofi_hip_hop</item>
+        <item name="android:textSize">@dimen/s15</item>
     </style>
 
 

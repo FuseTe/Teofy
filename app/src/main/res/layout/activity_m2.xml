@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EADCAD"
-    tools:context=".MainActivity">
+    tools:context=".m3">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="289dp"
-        android:background="@color/bblue"
+        android:background="@color/bbrown"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,14 +22,15 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/_44"></ImageView>
+            android:src="@drawable/_66"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Deltarune OST - Chapter 1"
+            android:text="@string/lancer_hip_vibes"
             android:textColor="@color/black"
-            android:textSize="20dp"></TextView>
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -37,7 +38,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="178dp"
         android:layout_height="248dp"
-        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,70 +50,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Idiots"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:textStyle="normal"></TextView>
+            style="@style/BE_a_big_shot" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Ralsei"
-            android:textColor="@color/gray"
-            android:textSize="14dp"></TextView>
+            style="@style/ralse" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Depression"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:textStyle="normal"></TextView>
+            style="@style/SpamtonNEO" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Ralsei"
-            android:textColor="@color/gray"
-            android:textSize="14dp"></TextView>
+            style="@style/ralse" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Go to Sleep"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:textStyle="normal"></TextView>
+            style="@style/smoke_em_out" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Ralsei"
-            android:textColor="@color/gray"
-            android:textSize="14dp"></TextView>
+            style="@style/ralse" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Death"
-            android:textColor="@color/black"
-            android:textSize="18dp"
-            android:textStyle="normal"></TextView>
+            style="@style/mr_bones" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Ralsei"
-            android:textColor="@color/gray"
-            android:textSize="14dp"></TextView>
+            style="@style/ralse" />
 
     </LinearLayout>
 
@@ -125,32 +106,37 @@
         app:layout_constraintHorizontal_bias="0.778"
         app:layout_constraintStart_toEndOf="@+id/linearLayout2"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:gravity="right">
+        android:gravity="right"
+        tools:ignore="RtlHardcoded">
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@drawable/_202"
-            android:layout_marginTop="10dp">
-        </ImageView>
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/todo" />
+
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@drawable/_202"
-            android:layout_marginTop="40dp">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/todo" />
+
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@drawable/_202"
-            android:layout_marginTop="40dp">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/todo" />
+
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@drawable/_202"
-            android:layout_marginTop="40dp">
-        </ImageView>
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/todo" />
+
 
     </LinearLayout>
 
@@ -166,7 +152,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="#000"></View>
+            android:background="#000" />
     </LinearLayout>
 
     <LinearLayout
@@ -182,19 +168,22 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/_7"
-            android:layout_marginHorizontal="40dp"></ImageView>
+            android:layout_marginHorizontal="40dp"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/_9"
-            android:layout_marginHorizontal="40dp"></ImageView>
+            android:layout_marginHorizontal="40dp"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/_6"
-            android:layout_marginHorizontal="40dp"></ImageView>
+            android:layout_marginHorizontal="40dp"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 
@@ -202,7 +191,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="248dp"
-        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
@@ -211,8 +200,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/_3">
-        </ImageView>
+            android:src="@drawable/_3"
+            android:contentDescription="@string/todo" />
 
     </LinearLayout>
 

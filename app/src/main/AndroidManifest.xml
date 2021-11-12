@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Teofy">
         <activity
+            android:name=".m7"
+            android:exported="true" />
+        <activity
+            android:name=".m6"
+            android:exported="true" />
+        <activity
+            android:name=".m5"
+            android:exported="true" />
+        <activity
+            android:name=".m4"
+            android:exported="true" />
+        <activity
+            android:name=".m3"
+            android:exported="true" />
+        <activity
+            android:name=".m2"
+            android:exported="true" />
+        <activity
+            android:name=".m1"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

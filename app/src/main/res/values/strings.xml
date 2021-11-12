@@ -7,27 +7,27 @@
     <string name="depression">Depression</string>
     <string name="go_to_sleep">Go to Sleep</string>
     <string name="death">Death</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+
     <string name="be_a_big_shot">Be a Big Shot</string>
     <string name="spamton_neo">Spamton NEO</string>
     <string name="smoke_em_out">Smoke em’ Out</string>
     <string name="mr_bones">Mr. Bones</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+
     <string name="ralsei_podcast">Ralsei Podcast</string>
-    <string name="todo">TODO</string>
+    <string name="deltarune_ost_chapter_1">Deltarune OST - Chapter 1</string>
+    <string name="good_morning">Good morning</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="artists_songs_or_podcasts">Artists, songs, or podcasts</string>
+    <string name="your_library">Your Library</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="playlist_170_songs">Playlist - 170 Songs</string>
+    <string name="deltarune">Deltarune OST Part 1 </string>
+    <string name="search">Search</string>
+    <string name="your_top_genres">Your top genres</string>
+    <string name="browse_all">Browse all</string>
+    <string name="symphonic">Symphonic</string>
+    <string name="metal">Metal</string>
+    <string name="electro">Electro</string>
+    <string name="lofi_hip_hop">Lofi Hip-Hop</string>
+
 </resources>
