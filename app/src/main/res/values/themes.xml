@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Teofy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Lancer" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/lancer_hip_vibes</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+    <style name="idiots" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/idiots</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ralse" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:text">@string/ralsei</item>
+        <item name="android:textSize">@dimen/sp14</item>
+    </style>
+
+    <style name="depression" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/depression</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="go_to_sleep" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/go_to_sleep</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="death" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/death</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="be_a_big_shot" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/be_a_big_shot</item>
+        <item name="android:textSize">@dimen/sp25</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="BE_a_big_shot" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/be_a_big_shot</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SpamtonNEO" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/spamton_neo</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="smoke_em_out" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/smoke_em_out</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="mr_bones" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/mr_bones</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ralsei_podcast" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/ralsei_podcast</item>
+        <item name="android:textSize">@dimen/sp25</item>
+    </style>
+
+
+</resources>
